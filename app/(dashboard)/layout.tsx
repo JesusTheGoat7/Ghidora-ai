@@ -2,7 +2,7 @@ import Navbar from "@/components/navbar";
 import { Sidebar } from "@/components/sidebar";
 
 const DashboardLayout = ({
-    children: React.ReactNode;
+    children: React.ReactNode,
 }) => { 
     return (
         <div className="h-full relative">
